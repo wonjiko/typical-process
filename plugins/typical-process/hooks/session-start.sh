@@ -20,9 +20,9 @@ if [ -f "$ACTIVE_FILE" ]; then
       echo "║  Phase: $PHASE"
       echo "║  Progress: $PROGRESS"
       echo "╠══════════════════════════════════════╣"
-      echo "║  /tp:execute    - Continue work      ║"
-      echo "║  /tp:sessions   - Switch session     ║"
-      echo "║  /tp:retrospect - Review & finish    ║"
+      echo "║  /typical-process:execute             ║"
+      echo "║  /typical-process:sessions            ║"
+      echo "║  /typical-process:retrospect          ║"
       echo "╚══════════════════════════════════════╝"
     fi
   fi

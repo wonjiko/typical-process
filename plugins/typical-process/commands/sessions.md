@@ -57,6 +57,6 @@ If no argument:
    - Active sessions count
    - Archived sessions count
 3. Show available actions:
-   - `/typical-process:sessions [name]` or `/tp:sessions [name]` - Switch to session
-   - `/typical-process:execute` or `/tp:execute` - Continue active session
-   - `/typical-process:retrospect` or `/tp:retrospect` - Review active session
+   - `/typical-process:sessions [name]` - Switch to session
+   - `/typical-process:execute` - Continue active session
+   - `/typical-process:retrospect` - Review active session

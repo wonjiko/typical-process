@@ -27,19 +27,19 @@ claude plugin install typical-process@typical-process
 
 ## Commands
 
-| Command | Alias | Description |
-|---------|-------|-------------|
-| `/typical-process:start [name]` | `/tp:start [name]` | 새 세션 시작 |
-| `/typical-process:execute` | `/tp:execute` | 현재 세션 작업 실행 |
-| `/typical-process:sync` | `/tp:sync` | 문서-상태 동기화 |
-| `/typical-process:sessions [name]` | `/tp:sessions [name]` | 세션 목록/전환 |
-| `/typical-process:retrospect` | `/tp:retrospect` | 세션 회고 |
+| Command | Description |
+|---------|-------------|
+| `/typical-process:start [name]` | 새 세션 시작 |
+| `/typical-process:execute` | 현재 세션 작업 실행 |
+| `/typical-process:sync` | 문서-상태 동기화 |
+| `/typical-process:sessions [name]` | 세션 목록/전환 |
+| `/typical-process:retrospect` | 세션 회고 |
 
 ## Usage
 
 ### 1. 새 세션 시작
 ```
-/tp:start add-authentication
+/typical-process:start add-authentication
 ```
 - 계획 문서 (`add-authentication-plan.md`) 생성
 - 컨텍스트 문서 (`add-authentication-context.md`) 생성
@@ -48,7 +48,7 @@ claude plugin install typical-process@typical-process
 
 ### 2. 작업 실행
 ```
-/tp:execute
+/typical-process:execute
 ```
 - 다음 미완료 작업 식별
 - 작업 실행 및 문서 업데이트
@@ -56,20 +56,20 @@ claude plugin install typical-process@typical-process
 
 ### 3. 세션 전환
 ```
-/tp:sessions              # 목록 보기
-/tp:sessions fix-bug      # 세션 전환
+/typical-process:sessions              # 목록 보기
+/typical-process:sessions fix-bug      # 세션 전환
 ```
 
 ### 4. 동기화
 ```
-/tp:sync
+/typical-process:sync
 ```
 - 계획과 컨텍스트 문서 동기화
 - 진행률 자동 계산
 
 ### 5. 회고 및 완료
 ```
-/tp:retrospect
+/typical-process:retrospect
 ```
 - 완료된 작업 요약
 - 개선점 분석
